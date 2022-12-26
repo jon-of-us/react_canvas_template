@@ -2,16 +2,16 @@ import { Canvas } from "./setup/canvas";
 import "./setup/site_style";
 
 function Heading({ title }: { title: string }) {
-  return <h1 style={{ color: "white" }}>{title}</h1>;
+    return <h1 style={{ color: "white" }}>{title}</h1>;
 }
 
 function App() {
-  return (
-    <div className="App">
-      <Heading title="Hello Hello" />
-      <Canvas />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Heading title="Hello Hello" />
+            <Canvas />
+        </div>
+    );
 }
 
 export default App;
