@@ -1,8 +1,8 @@
-import { Canvas } from "./canvas/canvas";
+import { Canvas } from "./setup/canvas";
+import "./setup/site_style";
 
-
-function Heading({title}: {title: string}) {
-  return <h1>{title}</h1>;
+function Heading({ title }: { title: string }) {
+  return <h1 style={{ color: "white" }}>{title}</h1>;
 }
 
 function App() {
